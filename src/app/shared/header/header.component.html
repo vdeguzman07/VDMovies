@@ -1,0 +1,18 @@
+<header>
+  <nav
+    class="navbar"
+    [ngStyle]="{
+      'background-color': route.url === '/' ? '' : '#212121'
+    }"
+  >
+    <a href="" class="navbar-logo">
+      <span><b>VD</b>Movies<b>.</b></span>
+    </a>
+    <ul class="navbar-links">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/movies">Movies</a></li>
+      <!-- <li><a routerLink="/tvshows">TV Shows</a></li> -->
+      <li><a routerLink="/genres">Genres</a></li>
+    </ul>
+  </nav>
+</header>
